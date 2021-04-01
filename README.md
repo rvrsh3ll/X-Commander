@@ -13,6 +13,6 @@ python3 x-commander.py -u admin --passwordfile passwords.txt -t 192.168.164.132 
 ![Brute Force Example](/img/brute_success.png)
 
 ## Query
-python3 x-commander.py -u admin -P admin -t <IP> --query "SHOW DATABASES" --verbose
+python3 x-commander.py -u admin -P admin -t targetIP --query "SHOW DATABASES" --verbose
 
 ![Brute Force Example](/img/databases.png)

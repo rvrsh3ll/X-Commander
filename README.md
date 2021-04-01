@@ -10,7 +10,7 @@ I found there to be a lack of easy-to-use solutions for attacking MySQLX or XDev
 ## Brute Force
 python3 x-commander.py -u admin --passwordfile passwords.txt -t 192.168.164.132 --verbose -s
 
-![Brute Force Example](/img/brute_force.png)
+![Brute Force Example](/img/brute_success.png)
 
 ## Query
 python3 x-commander.py -u admin -P admin -t <IP> --query "SHOW DATABASES" --verbose
